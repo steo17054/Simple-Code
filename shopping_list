@@ -1,0 +1,4 @@
+shopping_list = []
+print("Hello this is a program to register you a shopping list, you type which item you want to add and after every addition you will be asked whether you want to stop and print your list or if you want to keep adding to it :)")
+add_item = input("What would you like to add to your list: ")
+shopping_list.append(add_item)
