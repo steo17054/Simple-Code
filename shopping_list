@@ -1,5 +1,5 @@
 shopping_list = []
-def error:
+def error():
   print("INVALID INPUT")
 print("Hello this is a program to register you a shopping list, you type which item you want to add and after every addition you will be asked whether you want to stop and print your list or if you want to keep adding to it :)")
 list_loop = True
@@ -8,11 +8,11 @@ while list_loop:
   shopping_list.append(add_item)
   continue_loop = True
   while continue_loop:
-    continue = input("Would you like to keep adding to your list? Type /"Yes/" or /"No/"")
-    continue = continue.upper()
-    if continue == "YES"
+    continue_list = input("Would you like to keep adding to your list? Type Yes or No")
+    continue_list = continue_list.upper()
+    if continue_list == "YES":
       list_loop = True
-    elif continue == "NO"
+    elif continue_list == "NO":
       list_loop = False
     else:
       error()
